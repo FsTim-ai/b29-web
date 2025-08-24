@@ -7,7 +7,7 @@
 .toggle-switch {
   width: 60px;
   height: 30px;
-  background: linear-gradient(to right, #0f172a, #3b82f6);
+  background: black;
   border-radius: 30px;
   position: relative;
   transition: background 0.3s ease;
@@ -27,7 +27,7 @@
 
 /* Aktif (Dark Mode) */
 .toggle-switch.active {
-  background: linear-gradient(to right, #10b981, #0b8ea5);
+  background: white
 }
 
 .toggle-switch.active .circle {
@@ -36,13 +36,13 @@
 
 
 body {
-  background: linear-gradient(to right, #06b6d4, #10b981);  
+  background: white;  
   color: black;
   transition: background 0.3s ease, color 0.3s ease;
 }
 
 body.dark {
-  background: linear-gradient(to right, #0f172a, #3b82f6);
+  background: black;
   color: white;
 }
 
