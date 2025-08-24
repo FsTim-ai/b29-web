@@ -31,6 +31,7 @@
 }
 
 .toggle-switch.active .circle {
+   background: black;
   transform: translateX(30px);
 }
 
