@@ -16,6 +16,9 @@ export default function Galery(){
             {src: "images/home.jpg", title:"Hari ke-4 FYP"},
             {src: "images/event1.jpg", title:"Hari ke-3 FYP"},
             {src: "images/upacara.jpg", title:"Upacara kemerdekaan ke 80"},
+            {src: "images/home.jpg", title:"Hari ke-4 FYP"},
+            {src: "images/event1.jpg", title:"Hari ke-3 FYP"},
+            {src: "images/upacara.jpg", title:"Upacara kemerdekaan ke 80"},
         ],
         Prestasi: [
 
@@ -41,7 +44,7 @@ export default function Galery(){
             onClick={() => setActiveTab(tab.key)}
             className={`px-4 py-2 rounded-lg font-medium transition ${
               activeTab === tab.key
-                ? "bg-blue-500 text-black"
+                ? "bg-gray-700 text-white"
                 : "bg-gray-200 hover:bg-gray-300 text-black"
             }`}
           >

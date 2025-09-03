@@ -15,8 +15,9 @@ export default function Navbar() {
           <Link href="/Study">Study</Link>
           <Link href="/Galery">Galery</Link>
         </div>
-        <div>
+        <div className="space-x-5">
           <Mode />
+          <Link href="/Login" className="text-xl font-bold">Login</Link>
         </div>
       </nav>
     </div>
